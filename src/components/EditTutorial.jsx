@@ -1,17 +1,17 @@
-// const EditTutorial = () => {
-//     return (
-//       <div>
-//         <div class="modal" tabindex="-1" id="edit-tutor">
+const EditTutorial = () => {
+    return (
+      <div>
+{/* //         <div class="modal" tabindex="-1" id="edit-tutor">
 //           <div class="modal-dialog">
 //             <div class="modal-content">
 //               <div class="modal-header">
 //                 <h5 class="modal-title">Modal title</h5>
-//                 <button
-//                   type="button"
+//                 <button */}
+{/* //                   type="button"
 //                   class="btn-close"
 //                   data-bs-dismiss="modal"
 //                   aria-label="Close"
-//                 ></button>
+//                 ></button> */}
 //               </div>
 //               <div class="modal-body">
 //                 <p>Modal body text goes here.</p>
@@ -35,4 +35,4 @@
 //     )
 //   }
   
-//   export default EditTutorial
+  export default EditTutorial
