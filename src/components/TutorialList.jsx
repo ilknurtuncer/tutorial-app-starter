@@ -2,18 +2,18 @@ import { FaEdit } from "react-icons/fa";
 import { AiFillDelete } from "react-icons/ai";
 import axios from "axios";
 import EditTutorial from "./EditTutorial";
-// const tutorials = [
-//   {
-//     id: 1,
-//     title: "JS",
-//     description: "JS is a programming language",
-//   },
-//   {
-//     id: 2,
-//     title: "React",
-//     description: "JS library for UI design",
-//   },
-// ]
+const tutorials = [
+  {
+    id: 1,
+    title: "JS",
+    description: "JS is a programming language",
+  },
+  {
+    id: 2,
+    title: "React",
+    description: "JS library for UI design",
+  },
+]
 
 // const TutorialList = ({ tutorials, getTutorials }) => {
 //   const deleteTutorial = async (id) => {
