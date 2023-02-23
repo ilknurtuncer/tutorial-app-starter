@@ -1,17 +1,17 @@
 import { useState } from "react"
 import axios from "axios"
 
-// const AddTutorial = ({ getTutorials }) => {
-//   const [title, setTitle] = useState("")
-//   const [description, setDescription] = useState("")
+const AddTutorial = ({ getTutorials }) => {
+  const [title, setTitle] = useState("")
+  const [description, setDescription] = useState("")
 
-//   const handleSubmit = (e) => {
-//     e.preventDefault()
-//     const newTutorial = { title, description }
-//     postTutorial(newTutorial)
-//     setDescription("")
-//     setTitle("")
-//   }
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    const newTutorial = { title, description }
+    postTutorial(newTutorial)
+    setDescription("")
+    setTitle("")
+  }
 
 //   const postTutorial = async (newTutorial) => {
 //     const BASE_URL = "https://tutorial-api.fullstack.clarusway.com/tutorials/"
